@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilosJuego.css">
+    <title>Trabajo Final</title>
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Card Training</h1>
+    </header>
+
+    <!-- Cuerpo -->
+    <main>
+        <!-- Muestra de datos de usuario -->
+        <div id="datosJugador">
+            <img src="./img/Energía_Agua_Básica.png" width="26" id="avatarImg">
+            <form id="form_entrada" action="juego.html">
+                <div class="itemform">
+                    <label for="tmpo">Nombre usuario:</label>
+                    <input type="text" id="nick" value="nick" readonly>
+                </div>
+                <div class="itemform">
+                    <label for="puntuacion">Puntuacion:</label>
+                    <input type="text" id="puntuacion" value="0"  class="inputJuego" readonly>
+                </div>
+                <div class="itemform">
+                    <label for="tmpo">Tiempo restante:</label>
+                    <input type="text" id="tmpo" value="10" class="inputJuego" readonly>
+                </div>
+                <div class="itemform">
+                    <label for="tiempoTotal">Tiempo total:</label>
+                    <input type="text" id="tiempoTotal" value="0" class="inputJuego" readonly>
+                </div>
+                <div class="itemform">
+                    <label for="intentos">Intentos restantes:</label>
+                    <input type="text" id="intentos" value="5" class="inputJuego" readonly>
+                </div>
+            </form>
+        </div>
+        <div>
+            <p>Explicacion del juego: Debes emparejar el pokemon con su energía respectiva. Ejemplo: Cartepie con la Energía Planta (Verde)</p>
+        </div>
+        <div id="contenedorJuego">
+            <!-- Contenedor Juego -->
+            <div id="juego">
+            
+            </div>
+            <!-- Contenedor Fin Juego -->
+            <div id="juegoAcabado">
+                <!-- Tablas de Records -->
+                <div id="tablas">
+                    <div class="tablaFacil">
+                        <h3>Dificultad Fácil</h3>
+                        <h4>8 Cartas</h4>
+                        <table>
+                            <tbody id="tabla0">
+                            </tbody>
+                        </table>
+                        <div class="sep"></div>
+                        <h4>16 Cartas</h4>
+                        <table>
+                            <tbody id="tabla1">
+                            </tbody>
+                        </table>
+                        <div class="sep"></div>
+                        <h4>24 Cartas</h4>
+                        <table>
+                            <tbody id="tabla2">
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                    <div class="tablaMedio">
+                        <h3>Dificultad Medio</h3>
+                        <h4>8 Cartas</h4>
+                        <table>
+                            <tbody id="tabla3">
+                            </tbody>
+                        </table>
+                        <div class="sep"></div>
+                        <h4>16 Cartas</h4>
+                        <table>
+                            <tbody id="tabla4">
+                            </tbody>
+                        </table>
+                        <div class="sep"></div>
+                        <h4>24 Cartas</h4>
+                        <table>
+                            <tbody id="tabla5">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tablaDificil">
+                        <h3>Dificultad Difícil</h3>
+                        <h4>8 Cartas</h4>
+                        <table>
+                            <tbody id="tabla6">
+                            </tbody>
+                        </table>
+                        <div class="sep"></div>
+                        <h4>16 Cartas</h4>
+                        <table>
+                            <tbody id="tabla7">
+                            </tbody>
+                        </table>
+                        <div class="sep"></div>
+                        <h4>24 Cartas</h4>
+                        <table>
+                            <tbody id="tabla8">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <button id="nuevaPartida">OTRA PARTIDA</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie -->
+    <footer>
+        <div id="piepagina">
+            <p>Copyright © 2023. All rights reserved.</p>
+        </div>
+    </footer>    
+    <script src="./js/datosUSuario.js"></script>
+    <script src="./js/juego.js"></script>
+</body>
+</html>

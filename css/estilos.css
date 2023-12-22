@@ -1,0 +1,203 @@
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url("../img/cabecera.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 150px;
+    color: #0022ff;
+}
+
+footer{
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 0px auto;
+}
+
+
+form{    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 18px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    width: 236px;
+    border: 1px solid #3c3c3c;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+input[type="submit"]{
+    background-color: #0022ff;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 100%;
+    border-color:#0022ff;
+
+}
+
+select{    
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+option{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+
+/* IDs */ /* Clases */
+
+.avatarItem{
+    background-color: #fff;
+    border: solid 1px #0022ff;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+#formulario{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px auto 0px auto;
+}
+
+#nicka{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 20px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #ced4da;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#email{
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    width: 92%;
+    border: 1px solid #3c3c3c;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+#error{
+    text-align: center;
+    color:#fd0c49;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#formEntrada p{
+    font-size: 15px;
+    color: #9f9f9f;
+}
+
+#avatar{
+    float:left;
+}
+
+#avatarContainer{
+    display: flex;
+    background-color: #fff;
+    border: solid 1px #0022ff;
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    margin-right: 10px;
+}
+
+#avatargrid{
+    width: 150px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+#tablas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    padding: 25px;
+}
+
+#tablas h3{
+    font-size: 35px;
+    padding: 5px;
+}
+
+#tablas h4{
+    font-size: 30px;
+    padding: 15px;
+}
+
+.tablaFacil, .tablaMedio, .tablaDificil{
+    background-color: #5bff7f;    
+    color: white;
+    text-align: center;  
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.tablaMedio{
+    background-color: #5baaff; 
+}
+
+.tablaDificil{
+    background-color: #ff5bfc;    
+}
+
+.tablaFacil p, .tablaMedio p, .tablaDificil p{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.sep{
+    margin: 5px 0px 0px 5px;
+    border: 1px solid #000000;
+}

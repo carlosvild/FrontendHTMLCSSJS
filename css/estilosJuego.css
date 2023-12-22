@@ -1,0 +1,194 @@
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url("../img/cabecera.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 140px;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 120px;
+    color: #0022ff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px auto 0px auto;
+    padding: 15px;
+}
+
+footer{
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 0px auto;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+}
+
+select{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+input[type="submit"]{
+    background-color: #fd0c49;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 100%;
+}
+
+p{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer{
+    font-weight: 100;
+}
+
+table{
+    width: 100%;
+}
+
+
+/* IDs */ /* Clases */
+
+#form_entrada{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+#datosJugador img{
+    float:left;
+    height: 88px;
+    width: 65px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+#contenedorJuego{
+    margin-right: 10px;
+    align-items: center;
+}
+
+#juego{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.carta{
+    padding: 15px;
+}
+
+.juegoAcabadoColor{
+    background-color: #263238;
+    transition: background-color 0.4s;
+}
+
+#juegoAcabado{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+#juegoAcabado button{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#tablas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    padding: 25px;
+}
+
+#tablas h3{
+    font-size: 35px;
+    padding: 5px;
+}
+
+#tablas h4{
+    font-size: 30px;
+    padding: 15px;
+}
+
+.tablaFacil, .tablaMedio, .tablaDificil{
+    background-color: #5bff7f;    
+    color: white;
+    text-align: center;  
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.tablaMedio{
+    background-color: #5baaff; 
+}
+
+.tablaDificil{
+    background-color: #ff5bfc;    
+}
+
+.tablaFacil p, .tablaMedio p, .tablaDificil p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.sep{
+    border: 1px solid #000000;
+}
